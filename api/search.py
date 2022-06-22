@@ -1,7 +1,12 @@
 import requests as rq
 import json
 
-response = rq.get('https://api.elsevier.com/content/search/sciencedirect?query=aluminium&apiKey=7f59af901d2d86f78a1fd60c1bf9426a')
+parameters = {
+    'query': 'aluminium',
+    'apiKey': '7f59af901d2d86f78a1fd60c1bf9426a'
+}
+
+response = rq.get('https://api.elsevier.com/content/search/sciencedirect?', params=parameters)
 print(response.status_code)
 
 
