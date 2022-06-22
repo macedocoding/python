@@ -3,7 +3,12 @@ from urllib import request
 import requests as rq
 import json
 
-response = rq.get('https://api.elsevier.com/content/article/doi/10.1016/j.commatsci.2022.111487?APIKey=cf1f26157cab37737d22e365b8bc9c6b&httpAccept=application%2Fjson')
+parameters = {
+    'httpAccept': 'application/json',
+    'APIKey': 'cf1f26157cab37737d22e365b8bc9c6b'
+}
+
+response = rq.get('https://api.elsevier.com/content/article/doi/10.1016/j.commatsci.2022.111487?', params=parameters)
 print(response.status_code)
 
 
