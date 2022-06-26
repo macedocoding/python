@@ -1,0 +1,43 @@
+China Hongqiao Group OR
+Rusal OR
+Xinfa Group OR
+Rio Tinto OR
+Alcan OR
+Alkan OR
+CHALCO OR
+Dubai Alum* OR
+Alcoa OR
+Yunnan OR
+East Hope OR
+Norsk hydro OR
+Mitsui Alum* OR
+Bharat Alu* OR
+Sesa Goa OR
+Balco OR
+Madras OR
+Vedanta OR
+Kaiser OR
+Reynolds OR
+Alpart OR
+Qinghai OR
+South32 OR
+Hillside OR
+Worsley OR
+Mozal OR
+Hindalco OR
+Aditya OR
+BHP Billiton OR
+Novelis OR
+Alba Alluminio Srl OR
+Italia Alluminio OR
+INDIVEST OR
+MAUCERI ITALIA ALLUMINIO OR
+FORCELLE ALLUMINIO OR
+Century Aluminum OR
+CII CARBON OR
+SENCHURI EHL OR
+JUMINUM KOMPANI OR
+Companhia Brasileira de Alúminio OR
+Pechiney
+
+alum* not (alumina or alumino* or aluminate or hydroxide or oxide or alumyte)
